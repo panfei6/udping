@@ -33,9 +33,9 @@ for i in range(0,len(sys.argv)):
 def udpclient():
     # ADDRESS = "10.36.3.113"  ## server端IP地址
     # PORT = 1234  ## server端监听端口
-    begin = 1  ## while循环判断
+    begin = 1  
     FailCount = 0  ## 丢包次数统计
-    # Count = 2000  ## while循环判断
+    # Count = 2000  
     arr_ttl = []
     sentdata = "udpsocket sent package to %s" % ADDRESS
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
