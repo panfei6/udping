@@ -31,7 +31,7 @@ for i in range(0,len(sys.argv)):
             print("Missing required parameters...")
 
 def udpclient():
-    # ADDRESS = "10.36.3.113"  ## server端IP地址
+    # ADDRESS = "127.0.0.1"  ## server端IP地址
     # PORT = 1234  ## server端监听端口
     begin = 1  
     FailCount = 0  ## 丢包次数统计

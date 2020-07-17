@@ -20,7 +20,7 @@ def udpserver():
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     udp_socket.settimeout(0.1)
     # 2.绑定一个本地信息
-    localaddr = ("10.36.3.113",1234) # 必须绑定自己电脑IP和port
+    localaddr = ("127.0.0.1",1234) # 必须绑定自己电脑IP和port
     udp_socket.bind(localaddr)
     # 3.接收数据
     while True:
